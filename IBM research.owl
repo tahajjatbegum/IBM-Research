@@ -1,0 +1,1665 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#"
+     xml:base="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27"
+     xmlns:github="http://purl.org/dc/terms/github "
+     xmlns:version2="http://www.w3.org/2002/07/owl#version%20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:github1="http://purl.org/dc/terms/github%20"
+     xmlns:version="http://www.w3.org/2002/07/owl#version "
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27">
+        <dc:title xml:lang="en">IBM</dc:title>
+        <terms:License rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 3.0(CC BY 3.0)</terms:License>
+        <dc:description xml:lang="en">This is an Ontology that provides information about IBM company. It provides information about all the products, services and support facilities IBM has to serve its clients, partners and internal people of IBM. It will be easy for companies to understand the products and services IBM offering. Its not easy to research more than 286 products and extensive services and trainings. This ontology will guide people to find out best product or services that can help different industry and different company.</dc:description>
+        <rdfs:label xml:lang="en">5.2</rdfs:label>
+        <github:link xml:lang="en">https://github.com/tahajjatbegum/IBM.git</github:link>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBM</rdfs:label>
+        <terms:contributor xml:lang="en"></terms:contributor>
+        <terms:contributor xml:lang="en">Tahajjat Begum</terms:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/License -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/License"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/github%20link -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/github%20link"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#version%20info -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#version%20info"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#HasSoftwareProduct -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#HasSoftwareProduct">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Industry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">IBM prodcuts are industry based prodcuts. IBM prodcuts ranges follows industry domain to lead. Therefore, we can maintain both inverse Functional and functional relationship. Has software product is invesre of is providing software services.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Industry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment>IBM providind industry based services and products, therefore, both services and products are linked with industry though its products and services.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">IBM provides 5 differnt types of expert services to its clinets and partners. The domain is here the company speciailtay as services as a part of the company and the range is differnt types of services that IBM providing.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">All the support IBM provides are either developer based support or product or services based support. IBM product, support and developers features are siblings for eachother. As all therse wings are part of main value preposition of IBM and are related to each other. All the support IBM providing are either service or product or developers support related support facilites. This definitely refers a symmetric relationship with each other.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Support facility by IBM is not only providing guidance to its clients and partners thorugh their asistance, it also serves internal management as well. IBM support facility is for IBM itself as well its clients and partners as well. Therefore, we can explain that Support facility by IBM has reflexive relationship as it knows serves internal IBM people as well as external clients and partners.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#APIConnect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#APIConnect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:isDefinedBy xml:lang="en">A comprehensive API management solution for your entire API lifecycle from creation to management</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/cloud/api-connect</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:isDefinedBy xml:lang="en">Uncovering insights with data collections, organizations and analysis.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://developer.ibm.com/technologies/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ArtificalIntelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ArtificalIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:comment xml:lang="en">Using IBM develoeprs tools programmaers can learn to create apps that accelerate, enhance, and scale the human expertise.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://developer.ibm.com/technologies/
+ref: https://www.techopedia.com/definition/190/artificial-intelligence-ai</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AssetManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AssetManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+        <rdfs:comment xml:lang="en">Today’s enterprise assets are connected in a complex ecosystem, pulling in reams of data from the Internet of Things (IoT). EAM can help you put that data to work to draw out insights and make better decisions. This improved decision-making drives optimized operations and enables best-in-class maintenance programs.</rdfs:comment>
+        <rdfs:comment xml:lang="en">ref:https://en.wikipedia.org/wiki/Asset_management
+https://www.ibm.com/internet-of-things/solutions/enterprise-asset-management/eam</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Asset management refers to systematic approach to the governance and realization of value from the things that a group or entity is responsible for, over their whole life cycles.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BigData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BigData">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Big data is a field that treats of ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/Big_data</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Blockchain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Blockchain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:comment xml:lang="en">Start Developing with the open source Hyperledger Fabric and IBM blockchain.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://blockgeeks.com/guides/what-is-blockchain-technology/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessAnalytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessAnalytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Business analytics (BA) is the practice of iterative, methodical exploration of an organization&apos;s data, with an emphasis on statistical analysis. Business analytics is used by companies committed to data-driven decision-making.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://searchbusinessanalytics.techtarget.com/definition/business-analytics-BA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessConsulting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessConsulting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">IBM experts in business, technology and industry use advanced technology to help you reduce cost and risk, achieve compliance, accelerate speed to market, create new revenue streams and establish a security-rich and reliable infrastructure that&apos;s ready for AI and hybrid cloud.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The busniess advises, support and consultation IBM provides to differnt industry and businesses. A consultant is a professional who provides professional or expert advice in a particular area such as security, management, accountancy, law, human resources, marketing, finance, engineering, science or any of many other specialized fields.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/Business_consultant
+https://www.ibm.com/services</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CIOresources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CIOresources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:isDefinedBy xml:lang="en">Today’s essential app design trends for CIOs to help managing not just the information technology supporting an enterprise but the customer-facing applications as well.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref https://www.ibm.com/information-technology</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudAdoptionAdvisortool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudAdoptionAdvisortool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud"/>
+        <rdfs:isDefinedBy xml:lang="en">An advanced technology to help reduce cost and risk, achieve compliance, accelerate speed to market, create new revenue streams and establish a security-rich and reliable infrastructure that&apos;s ready for AI and hybrid cloud.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/services</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudManagedServices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudManagedServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud"/>
+        <rdfs:isDefinedBy xml:lang="en">Managed cloud services refers to outsourcing daily IT management for cloud-based services and technical support to automate and enhance your business operations.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.agileit.com/news/10-benefits-cloud-managed-service-providers/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Communities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Communities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        <rdfs:isDefinedBy xml:lang="en">Developers community to learn from, and share with, the experts in the developerWorks community.Post questions and look up answers in the developerWorks community.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/ca/en/?lnk=msu_caen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Containers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Containers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:comment xml:lang="en">Automate the deployment, scaling, and management of containerized applications using IBM developers services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://developer.ibm.com/technologies/containers/</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.docker.com/resources/what-container</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContentManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContentManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Content management (CM) is a set of processes and technologies that supports the collection, managing, and publishing of information in any form or medium. When stored and accessed via computers, this information may be more specifically referred to as digital content, or simply as content.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/Content_management</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContinuousEngineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContinuousEngineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+        <rdfs:isDefinedBy xml:lang="en">The IBM Internet of Things Continuous Engineering Solution is a set of tools that helps systems engineers and application developers work together to create smart and connected products. With built-in, customizable process support, this solution helps teams respond effectively to continuous feedback, become more agile, and streamline compliance with industry standards</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://jazz.net/products/continuous-engineering-solution/
+https://www.ibm.com/internet-of-things/solutions/systems-engineering</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Data management is an administrative process that includes acquiring, validating, storing, protecting, and processing required data to ensure the accessibility, reliability, and timeliness of the data for its users.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ngdata.com/what-is-data-management/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataScience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataScience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Data science is a &quot;concept to unify statistics, data analysis, machine learning and their related methods&quot; in order to &quot;understand and analyze actual phenomena&quot; with data.[3] It employs techniques and theories drawn from many fields within the context of mathematics, statistics, information science, and computer science.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/Data_science</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy xml:lang="en">a person or company that creates new products, especially computer products such as software</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://dictionary.cambridge.org/dictionary/english/developer</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Documents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Documents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        <rdfs:comment xml:lang="en">Following documents available:
+Technical Documentation
+Support Portal
+Access technical support resources for IBM products and services
+Explore IBM&apos;s official product documentation
+Redbooks
+Find installation and implementation experiences, solution scenarios, and &quot;how-to&quot; guidelines</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Documents that is avialble from IBM to support its clients and partners.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/ca/en/?lnk=msu_caen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Downlaods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Downlaods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        <rdfs:comment xml:lang="en">Following facilites are downloadable from IBM:
+
+Fix Central
+Download fixes, updates and drivers for most products
+
+Trials and demos
+Try out IBM products before you buy them
+
+Entitled Systems Support
+Obtain downloads and support for Power systems and storage software
+
+Shopz
+Obtain downloads and support for z Systems
+
+Passport Advantage
+Manage licenses, subscriptions and support for a variety of software offerings</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The software, prodcuts and updates for clients to downloan.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/ca/en/?lnk=msu_caen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#FacilitiesManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#FacilitiesManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+        <rdfs:comment xml:lang="en">Infuse data and insights into your real estate and lease management strategy
+Optimize all aspects of facilities operations with an integrated workplace management system</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Facility management (or facilities management or FM) is a professional management discipline focused upon the efficient and effective delivery of support services for the organizations that it serves.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/Facility_management
+https://www.ibm.com/internet-of-things/solutions/facilities-management/real-estate-and-lease-management</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Financing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Financing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">IBM finance posibilites. IBM brings Watson to any cloud, anywhere. Watson can run across any public or private cloud, in addition to being optimized for IBM Cloud. Get the most out of Watson with custom payment plans.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The funding solutiona and payment options IBM provides to its clients.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/financing</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:isDefinedBy xml:lang="en">IBM Cloud is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS).A full-stack cloud platform that spans public, private and hybrid environments. Build with a robust suite of advanced data and AI tools, and draw on deep industry expertise to help you on your journey to the cloud.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/cloud/?lnk=mpr_bucl_caen&amp;lnk2=learnpanel
+https://searchcloudcomputing.techtarget.com/definition/IBM-Bluemix</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudStorage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudStorage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud"/>
+        <rdfs:isDefinedBy xml:lang="en">IBM Cloud Object Storage is a highly scalable cloud storage service, designed for high durability, resiliency and security. Store, manage and access your data via our self-service portal and RESTful APIs. Connect applications directly to Cloud Object Storage use other IBM Cloud Services with your data.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://console.bluemix.net/catalog/services/cloud-object-storage</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:comment xml:lang="en">ref:https://en.wikipedia.org/wiki/Cloudant</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Cloudant is an IBM software product, which is primarily delivered as a cloud-based service. Cloudant is a non-relational, distributed database service of the same name.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty">
+        <rdfs:isDefinedBy xml:lang="en">The code value of IBM. The products and services and supports available in IBM.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/ca-en/?ar=1</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMLinuxONE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMLinuxONE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+        <rdfs:comment xml:lang="en">LinuxONE offers the most secure, scalable and efficient platform for cloud and data</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">LinuxONE is a mainframe series that runs on Linux created by IBM as a way of competing with cloud computing solutions.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/it-infrastructure/linuxone
+https://whatis.techtarget.com/definition/LinuxONE</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMPowerSystems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMPowerSystems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+        <rdfs:comment xml:lang="en">Fueled by POWER9 technology, the foundation for the No. 1 and No. 2 supercomputers in the world.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Power Systems is IBM&apos;s Power Architecture-based server line.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/IBM_Power_Systems
+https://www.ibm.com/it-infrastructure/power</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMSpectrumComputing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMSpectrumComputing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+        <rdfs:isDefinedBy xml:lang="en">he IBM Spectrum Computing platform is a platform that offers new cognitive, resource-aware scheduling policies that help increase the utilization of existing compute resources, controlling costs while speeding results for high performance computing, big data analytics, new generation applications and open source frameworks, such as Hadoop and Apache Spark.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/developerworks/community/blogs/5things/entry/5_Things_to_Know_about_IBM_Spectrum_Computing_Solutions?lang=en
+https://www.ibm.com/it-infrastructure/spectrum-computing</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMStorage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMStorage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+        <rdfs:isDefinedBy xml:lang="en">A trusted foundation for a multicloud world.The IBM Storage product portfolio includes disk, flash, tape, NAS storage products, storage software and services. IBM’s approach is to focus on data management.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/IBM_Storage
+https://www.ibm.com/it-infrastructure/storage</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMzSystems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMzSystems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+        <rdfs:isDefinedBy xml:lang="en">IBM Z[1] is a family name used by IBM for all of its mainframe computers from the Z900 on. In July 2017, with another generation of products, the official family was changed to IBM Z from IBM z Systems.
+IBM Z is a  mainframe servers and software help you develop faster and more effectively</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/it-infrastructure/z
+https://en.wikipedia.org/wiki/IBM_Z</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">Build the foundation of a smart enterprise with IBM.From servers and mainframes to storage systems and software, IBM provides the building blocks of a next-generation IT architecture that empowers your enterprise.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Information technology infrastructure is defined broadly as a set of information technology (IT) components that are the foundation of an IT service; typically physical components (computer and networking hardware and facilities), but also various software and network components.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://en.wikipedia.org/wiki/IT_infrastructure
+ https://www.ibm.com/it-infrastructure?lnk=mpr_buit_caen&amp;lnk2=learnpanel</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy">
+        <rdfs:comment xml:lang="en">The pricing strategy IBM sets to earn profit in return of providing IT product and services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Price ranges and pricing strategies are significant in determining the company’s profit margins and product attractiveness.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: http://panmore.com/ibm-marketing-mix-4ps-analysis</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Industry"/>
+        <rdfs:isDefinedBy xml:lang="en">1.The people and activities involved in one type of business.
+2.the companies and activities involved in the process of producing goods for sale, especially in a factory or special area.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">Discover how IBM&apos;s breakthrough technologies are transforming industries with smarter ways to do business, new growth opportunities and strategies to compete and win.</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ref: https://dictionary.cambridge.org/dictionary/english/industry</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Industry">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasIndustryBasedProducts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The industries IBM target to serve with their services or prodcuts.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustryExpertise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustryExpertise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">IBM&apos;s breakthrough technologies are transforming industries with smarter ways to do business, new growth opportunities and strategies to compete and win.It serving more every industry with tehcnological advancement.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The expert Technological solution IBM provides to differnt industry.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InformationRiskandProtection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InformationRiskandProtection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security"/>
+        <rdfs:isDefinedBy xml:lang="en">A securitu solution by IBM, which helps to discover industry-leading security solutions.The new rules arm you with enterprise security solutions that help you meet any objective. Now you can stop threats, prove compliance, and grow your business.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/security/solutions</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">Connect your device, send data to the IBM Cloud, set up and manage your devices and use APIs to connect apps to your device data.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The Internet of things (IoT) is the network of devices such as vehicles, and home appliances that contain electronics, software, sensors, actuators, and connectivity which allows these things to connect, interact and exchange data.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/cloud/internet-of-things
+      https://en.wikipedia.org/wiki/Internet_of_things</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MarketOrientedPricing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MarketOrientedPricing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ValueBasedPricing"/>
+        <rdfs:isDefinedBy xml:lang="en">Also known as a competition-based strategy, market-oriented pricing compares similar products being offered on the market. Then, the seller sets the price higher or lower than their competitors depending on how well their own product matches up.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="en">ref: https://www.priceintelligently.com/market-oriented-pricing</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">Gain new cloud capabilities with an API-first strategy and provide new applications to end users on mobile first.
+Boost revenue and employee productivity.IBM Mobile solutions combine an industry-leading mobile portfolio with cloud, analytics, and cognitive technologies to help you accelerate your business initiatives and drive digital innovation.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Mobile referes toa device which is  a mobile phone, cell phone, cellphone, or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://en.wikipedia.org/wiki/Mobile_phone
+https://www.ibm.com/mobile</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileFirstFoundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileFirstFoundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:isDefinedBy xml:lang="en">With IBM MobileFirst™ Platform Foundation, you can extend your business to mobile devices. IBM MobileFirst Platform Foundation provides an open, comprehensive, and advanced mobile application platform for smartphones and tablets. It helps organizations of all sizes to efficiently develop, test, connect, run, and manage mobile applications (apps).</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/knowledgecenter/en/SSNJXP/welcome.html</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileQualityAssurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileQualityAssurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:isDefinedBy xml:lang="en">Take mobile app testing beyond the testlab and get rapid, continuous feedback from users.Ensure the mobile quality in the testing phase.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/developerworks/community/blogs/mobilequalitybeta/entry/what_is_mobile_quality_assurance?lang=en&amp;lnk=mpr_bumf_caen&amp;lnk2=learn</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Node.js -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Node.js">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ArtificalIntelligence"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Blockchain"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Containers"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Node.js"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Developer can use this JavaScript runtime environment to run JavaScript code outside the browser.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://developer.ibm.com/technologies/node-js/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OthersSupports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OthersSupports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        <rdfs:comment xml:lang="en">Following other Supports available for clients:
+
+Customer support
+Contact administrative support for items such as contracts, orders, and invoices
+
+SupplierWorld support
+Obtain procurement support for suppliers
+
+Warranty and licenses
+Look up warranty and related information</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The after sales supports provided by IBM.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/ca/en/?lnk=msu_caen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#HasSoftwareProduct"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#HasSoftwareProduct"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy xml:lang="en">The products IBM offers globally.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">Ref:https://www.ibm.com/industries</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">Security doesn’t need more tools. It needs new rules.Fighting new threats with more tools just adds complexity. It’s time to re-think your approach to cybersecurity.IBM solve security threat issues.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) caused by others.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/security
+https://en.wikipedia.org/wiki/Security</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityOperationsandResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityOperationsandResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security"/>
+        <rdfs:isDefinedBy xml:lang="en">Orchestrate incident response.A technological solution to proactively and intelligently respond to cyber threats.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/security/solutions/orchestrate-incident-response</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityTransformationServices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityTransformationServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security"/>
+        <rdfs:isDefinedBy xml:lang="en">The security transformation is a term used to describe a profound shift in the IT industry. It would be easy enough to say that IT security has become more important, or that there are more security considerations, but the security transformation is more about a qualitative shift: a different way of thinking about IT security.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://oxfordcomputertraining.com/glossary/security-transformation/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasServices"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessConsulting"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Financing"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustryExpertise"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TechnologyServices"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TrainingandSkills"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">IBM Services makes it easy for the world’s leading companies to reimagine and reinvent their business through technology to build smarter business.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Services IBM offers its customers through its technological Breakthrough.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/services</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Communities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Documents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Downlaods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OthersSupports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Training"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#hasSupportfacility"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Communities"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Documents"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Downlaods"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OthersSupports"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Training"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">IBM provide supports in many ways to its clients, which is one of the most crucial aspect of customer satisfaction for IBM.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The support IBM proving to its partners, developers and customers.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/support/ca/en/?lnk=fcw</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TechnologyServices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TechnologyServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">IBM work with the world’s leading companies to reimagine and reinvent through technology to build smarter business.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The Technological Services IBM provides to help bsuiness and its clients design, build and run foundational systems.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/services</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        <rdfs:comment xml:lang="en">Following trainigns can avail from IBM:
+
+Explore IBM electronic support
+Learn how to use IBM electronic support
+
+IBM authorized training
+Achieve the skills and expertise to take your career to the next level
+
+IBM professional certification program
+Earn the skills and accreditation needed to become a world-class resource to your customers, colleagues, and company
+
+IBM technical events and conferences
+View an up-to-date listing of additional technical education opportunities</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The trianing IBM offers to clients, developers and its partners.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/support/ca/en/?lnk=msu_caen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TrainingandSkills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TrainingandSkills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+        <rdfs:comment xml:lang="en">Using IBM leanring gateway, the education courses, its partners and clients can learn, explore and succedd in technological field.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The training and leanring facility available for people or companies to start  learning journey, build expertise and get recognized.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www-03.ibm.com/services/learning/ites.wss/zz-en?pageType=page&amp;c=a0011023</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#UnifiedGovernance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#UnifiedGovernance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Unified Governance is a marriage between policy integration and process transparency. Effective unified governance creates an organizational environment whereby the key stakeholders have a defined partnership with executive buy-in and oversight to create a uniform approach and to establish a strong linkage between legal obligations for information, records management, and IT; and the duty and value associated with the data asset.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.edrm.net/glossary/unified-governance/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#VMwareonIBMCloud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#VMwareonIBMCloud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud"/>
+        <rdfs:isDefinedBy xml:lang="en">VMware software products for building a private cloud infrastructure. VMware vCloud Suite features components for cloud services provisioning, cloud services monitoring and cloud services chargeback or showback.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://searchvmware.techtarget.com/definition/VMware-vCloud-Suite</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ValueBasedPricing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ValueBasedPricing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy"/>
+        <rdfs:isDefinedBy xml:lang="en">value-based pricing is a price-setting strategy where prices are set primarily on a consumers&apos; perceived value of the product or service.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.investopedia.com/terms/v/valuebasedpricing.asp</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+        <rdfs:comment xml:lang="en">Powered by the latest innovations in machine learning, Watson is the open, multicloud platform that lets you automate the AI lifecycle. Build powerful models from scratch, or speed time-to-value with pre-built enterprise apps.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Watson is a question-answering computer system capable of answering questions posed in natural language,[2] developed in IBM&apos;s DeepQA project by a research team led by principal investigator David Ferrucci.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/watson
+https://en.wikipedia.org/wiki/Watson_(computer)</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonCommerce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonCommerce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson"/>
+        <rdfs:isDefinedBy xml:lang="en">IBM Watson Commerce is ecommerce software that is enabled with AI to ensure you have everything you require to face digital disruption.An  an e-commerce platform built for all the ways your customers want to engage.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/commerce</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonDataPlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonDataPlatform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+        <rdfs:isDefinedBy xml:lang="en">Watson Data Platform is a set of data and analytics features, all available on the IBM Cloud Platform. The Watson Data Platform features embedded, cognitive-assisted machine learning. It provides user-specific tools and data, and analytic services on the IBM Cloud. It’s easy to choose a combination of services that application developers, data scientists, and data engineers can use to complement your existing architecture and compose business solution.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/blogs/nordic-msp/ibm-watson-data-platform/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonInternetofThings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonInternetofThings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+        <rdfs:comment xml:lang="en">The Internet of Things delivers the data. AI powers the insights.
+Unlock the power of data with AI and IoT to innovate asset management, optimize real estate and facilities, improve software and systems engineering, and advance your digital transformation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">ref: https://www.ibm.com/internet-of-things
+https://www.ibm.com/internet-of-things</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IBM&apos;s new Watson Internet of Things (IoT) is a cognitive system that learns from, and infuses intelligence into the physical world.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonIoTplatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonIoTplatform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+        <rdfs:comment xml:lang="en">Helping industries use IoT to deliver digital transformation</rdfs:comment>
+        <rdfs:comment xml:lang="en">ref:https://www.ibm.com/internet-of-things/solutions
+https://www.ibm.com/support/knowledgecenter/en/SSQP8H/iot/kc_welcome.htm</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IBM® Watson™ IoT Platform is a foundational cloud offering that can connect and control IoT sensors, appliances, homes, and industries. Built on IBM Cloud, Watson IoT Platform provides an extensive set of built-in and add-on tools</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonMarketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonMarketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson"/>
+        <rdfs:isDefinedBy xml:lang="en">A smarter marketing platform, powered by Watson. Watson Marketing is an AI-powered digital marketing platform designed on an open ecosystem to help teams work smarter and deliver the experiences their customers expect.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/digital-marketing</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonSupplyChain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonSupplyChain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson"/>
+        <rdfs:isDefinedBy xml:lang="en">A smarter supply chain with AI-enabled solutions will drive new value across your business and supply chain today — with resiliency and adaptability you can count on for years to come</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/supply-chain</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Swift@IBM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Swift@IBM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+        <rdfs:isDefinedBy xml:lang="en">An intuitive, open language for building modern apps</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/cloud/swift?lnk=mpr_bumf_caen&amp;lnk2=learn</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense">
+        <rdfs:isDefinedBy xml:lang="en">The Aerospace/Defense Industry serves, as its name represents, two main markets: Aerospace, which largely comprises the production, sale, and service of commercial aircraft. And Defense, which is dependent on the nation&apos;s need for military weapons and systems designed to operate on land, sea, and in the air.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">IBM provides: Improve quality and speed in aerospace operations.Helps to Achieve new levels of insight from cockpit to aftermarket, and from manufacturing to supply chain.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">Ref: https://www.ibm.com/industries/aerospace-defense</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ref:http://valueline.com/Stocks/Industries/Industry_Overview__Aerospace_and_Defense.aspx#.XHl6I4hKhPY</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive">
+        <rdfs:comment xml:lang="en">IBM helps automotive companies Innovate like a startup. Scale like the enterprise.Through Digital Reinvention™, automotive companies can create new experiences and ways of working with the support of IBM.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.dictionary.com/browse/automotive 
+      https://www.ibm.com/industries/automotive</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">an industry, store department, etc., specializing in appliances and parts for cars, trucks, and other motorized vehicles:</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial">
+        <rdfs:isDefinedBy xml:lang="en">Financial services are the economic services provided by the finance industry, which encompasses a broad range of businesses that manage money, including credit unions, banks, credit-card companies, insurance companies, accountancy companies, consumer-finance companies, stock brokerages, investment funds, individual managers and some government-sponsored enterprises.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">IBM Banking and Financial Markets Technology to help companies create a superior customer experience, build agile core banking systems, offer innovative payment services and optimize enterprise risk management.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">ref: https://en.wikipedia.org/wiki/Financial_services
+       https://www.ibm.com/industries/banking-financial-markets</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals">
+        <rdfs:comment xml:lang="en">Chemical Industry can explore how to achieve greater results through a digital transformation fueled by IBM technology.</rdfs:comment>
+        <rdfs:comment xml:lang="en">ref: https://www.ibm.com/industries/chemicals
+https://www.thoughtco.com/what-is-a-chemical-604316</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The chemical industry comprises the companies that produce industrial chemicals.A chemical is any substance consisting of matter. This includes any liquid, solid, or gas. A chemical is any pure substance (an element) or any mixture (a solution, compound, or gas). Chemicals occur naturally and can be made artificially.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction">
+        <rdfs:isDefinedBy xml:lang="en">Construction is the process of constructing a building or infrastructure.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://en.wikipedia.org/wiki/Construction</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Construction industry can maximize returns on capital projects using IBM products.Foster innovation, reduce shutdowns, and establish a safe environment with comprehensive EC&amp;O solutions.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/education
+     https://en.wikipedia.org/wiki/Education</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">IBM Education solutions with cognitive technology help teachers and students improve outcomes from kindergarten to employment. With IBM Education solutions and services, you can personalize learning, increase research capacity, and optimize operations.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Formal education is commonly divided formally into such stages as preschool or kindergarten, primary school, secondary school and then college, university, or apprenticeship.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics">
+        <rdfs:isDefinedBy xml:lang="en">Electronics deals with electrical circuits that involve active electrical components such as vacuum tubes, transistors, diodes, integrated circuits, optoelectronics, and sensors, associated passive electrical components, and interconnection technologies.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/industries/electronics</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">The electronics industry is infusing intelligence into products and connecting them to everything with the help of IBM products and services. Companies that figure out how to turn that data into actionable insights will create new business models and deliver greater value to customers.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">ref: https://en.wikipedia.org/wiki/Electronics</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities">
+        <rdfs:isDefinedBy xml:lang="en">The energy industry is the totality of all of the industries involved in the production and sale of energy, including fuel extraction, manufacturing, refining and distribution. Modern society consumes large amounts of fuel, and the energy industry is a crucial part of the infrastructure and maintenance of society in almost all countries</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">IBM help utilities boost efficiency with sustainable practices – good for the planet and the bottom line. Let&apos;s put smart to work.™</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ref: https://en.wikipedia.org/wiki/Energy_industry
+      https://www.ibm.com/industries/energy</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/government
+      https://en.oxforddictionaries.com/definition/government</rdfs:seeAlso>
+        <rdfs:isDefinedBy xml:lang="en">The group of people with the authority to govern a country or state; a particular ministry in office.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="en">Governments need to digitally transform to deliver services citizens want and need. The public expects the agility and efficiency found in the private sector, and governments must embrace new technology, processes, ideas, and workforce skills to thrive.IBM provide technological know-how to govenment.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal">
+        <rdfs:isDefinedBy xml:lang="en">The Federal Government of the United States (U.S. Federal Government)[a] is the national government of the United States, a federal republic in North America, composed of 50 states, a federal district, five major self-governing territories, and several island possessions.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/federal
+      https://en.wikipedia.org/wiki/Federal_government_of_the_United_States</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">IBM providing US Government technology solutions to help protect, defend and serve citizens.From AI to data analytics to cybersecurity, we’re transforming the federal government into a cognitive enterprise. Let’s put smart to work—for the American people.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare">
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/industries/healthcare
+       https://en.wikipedia.org/wiki/Health_care</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Systems of care are transforming. Organizations are converging and new partnerships are forming. To meet the modern demands of a changing world requires breadth of expertise, end to end solutions and the unparalleled commitment of IBM, developing the essential technologies  for the healthcare industry of the future.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in human beings. Health care is delivered by health professionals (providers or practitioners) in allied health fields. Physicians and physician associates are a part of these health professionals.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/insurance</rdfs:seeAlso>
+        <rdfs:isDefinedBy xml:lang="en">Insurance is a means of protection from financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss.
+
+An entity which provides insurance is known as an insurer, insurance company, insurance carrier or underwriter.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">Be the disruptor with the IBM Insurance Platform.True digital transformation means an insurer can be more competitive and secure using cloud, analytics, RPA, platform, AI and blockchain solutions.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience">
+        <rdfs:comment xml:lang="en">Unleash the power of your data using IBM products and services.IBM provide customers with the technology and expertise they need to power thriving organizations, support vibrant communities, and solve health challenges.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The life sciences are sciences such as zoology, botany, and anthropology which are concerned with human beings, animals, and plants.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.collinsdictionary.com/dictionary/english/life-science
+      https://www.ibm.com/industries/lifesciences</rdfs:seeAlso>
+        <rdfs:isDefinedBy xml:lang="en">a branch of science (such as biology, medicine, and sometimes anthropology or sociology) that deals with living organisms and life processes</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/manufacturing
+       https://en.wikipedia.org/wiki/Manufacturing</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">IBM Makes your Factory smart.Prevent problems and optimize uptime with the power of Industry 4.0 and IBM.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">Manufacturing is the production of merchandise for use or sale using labour and machines, tools, chemical and biological processing, or formulation. The term may refer to a range of human activity, from handicraft to high tech, but is most commonly applied to industrial design, in which raw materials are transformed into finished goods on a large scale.</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/metals-mining
+      https://www.investopedia.com/ask/answers/040615/what-metals-and-mining-sector.asp</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">IBM helps detect problems before they occur.Boost productivity and predictability across the enterprise with IBM Cognitive Plant Advisor. Let’s put smart to work.™</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The metals and mining sector is the industry dedicated to the location and extraction of metal and mineral reserves around the world. Global reserves of metals and minerals are mined for profit and then used in jewelry-making, industrial applications, and investments.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas">
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/oil-gas</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Digital transformation reshapes the oil and gas industry.
+IBM provides solutions in three areas for oil and gas industry.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Oil and gas are two commonly associated fossil fuels.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts">
+        <rdfs:isDefinedBy xml:lang="en">In the context of these two industries, retail refers to the sale of products to its end users/consumers. Consumer packaged goods (CPG) refers to a broad spectrum of manufacturers, sellers, and marketers of physical goods (typically packaged in some way, shape or form) used by consumers and sold through a retailer.</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.quora.com/What-is-the-difference-between-retail-and-CPG
+https://www.ibm.com/industries/retail-consumer-products</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">A changing consumer landscape means new opportunities to build customer loyalty. Companies can evaluate retail and consumer industry based companies current priorities and technology.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation">
+        <rdfs:comment xml:lang="en">Move people and transport objects around the world at the speed of technology using IBM technology.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">ref: https://www.ibm.com/industries/travel-transportation
+       https://en.wikipedia.org/wiki/Travel
+        https://en.wikipedia.org/wiki/Transport</rdfs:seeAlso>
+        <rdfs:isDefinedBy xml:lang="en">Transport or transportation is the movement of humans, animals and goods from one location to another. In other words the action of transport is defined as a particular movement of an organism or thing from a point A to the Point B. 
+Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment">
+        <rdfs:comment xml:lang="en">IBM helps Transformative technologies for your Telecommunications, Media &amp; Entertainment business.Learn how IBM solutions can personalize customer experiences, accelerate network automation, and create new revenue streams.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Telecommunication is the transmission of signs, signals, messages, words, writings, images and sounds or information of any nature by wire, radio, optical or other electromagnetic systems.
+ the means of communication, as radio and television, newspapers, magazines, and the Internet, that reach or influence people widely.
+shows, films, television, or other performances or activities that entertain people, or a performance of this type</rdfs:isDefinedBy>
+        <rdfs:seeAlso xml:lang="en">ref:https://www.ibm.com/industries/telecom-media-entertainment
+https://www.dictionary.com/browse/media
+https://dictionary.cambridge.org/dictionary/english/entertainment
+https://en.wikipedia.org/wiki/Telecommunication</rdfs:seeAlso>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#APIConnect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CIOresources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileFirstFoundation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MobileQualityAssurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Swift@IBM"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ArtificalIntelligence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Blockchain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Containers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Node.js"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloud"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ITinfrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InternetOfThings"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Mobile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Security"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Watson"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AssetManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContinuousEngineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#FacilitiesManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonInternetofThings"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonIoTplatform"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BigData"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessAnalytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#ContentManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#DataScience"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#UnifiedGovernance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonDataPlatform"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BusinessConsulting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Financing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustryExpertise"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TechnologyServices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TrainingandSkills"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudAdoptionAdvisortool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#CloudManagedServices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCloudStorage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#VMwareonIBMCloud"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Communities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Documents"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Downlaods"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OthersSupports"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Training"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Developers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Products"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Services"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Supports"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMCompanySpecialty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IbmPricingStrategy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IndustriesIbmServes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMLinuxONE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMPowerSystems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMSpectrumComputing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMStorage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#IBMzSystems"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#InformationRiskandProtection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityOperationsandResponse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#SecurityTransformationServices"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonCommerce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonMarketing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#WatsonSupplyChain"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#AerospaceAndDefense"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Automotive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#BankingAndFinancial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Chemicals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Construction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Education"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Electronics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#EnergyAndUtilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#GovernmentUSfederal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Healthcare"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Insurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#LifeScience"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Manufacturing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#MetalsAndMining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#OilAndGas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#RetailAndConsumerProducts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#TravelAndTransportation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tahaj/ontologies/2019/2/untitled-ontology-27#Telecommunication,MediaAndEntertainment"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
